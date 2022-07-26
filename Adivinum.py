@@ -61,8 +61,7 @@ Vamos começar?''')
                 if tentar == 'n':
                     novamente()
         acertos.sort()
-        print(acertos)
-        print(n)
+        errados.sort()
 
     print(f'Meu número era {n}')
     novamente()
