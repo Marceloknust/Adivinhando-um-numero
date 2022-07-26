@@ -10,15 +10,6 @@ def primo(numero):
             contador += 1
     return contador
 
-def organizador(o):
-    for j in range(len(o)):
-        print(o)
-        if o[j] < o[(j - 1)]:
-            t = o[j]
-            o[j] = o[(j - 1)]
-            o[j - 1] = t
-            print(o)
-
 def jogo():
     n = randint(0, 1000)
     cont = 0
